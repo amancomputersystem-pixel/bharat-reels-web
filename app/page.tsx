@@ -11,14 +11,13 @@ export default function Home() {
       minHeight: "100vh",
       background: "#101010",
       color: "white",
-      fontFamily: "Arial, sans-serif",
       padding: "20px",
+      fontFamily: "Arial, sans-serif",
       maxWidth: "600px",
       margin: "auto"
     }}>
-      <h1 style={{ color: "#22c55e" }}>Bharat Reels 🇮🇳</h1>
+      <h1 style={{ color: "#22c55e" }}>🇮🇳 Bharat Reels</h1>
       <p>Apni duniya, apni awaaz.</p>
-
       <hr />
 
       <h2>For You</h2>
@@ -28,8 +27,8 @@ export default function Home() {
         borderRadius: "12px",
         marginBottom: "20px"
       }}>
-        <p>🎬 Reels feed yahan dikhegi.</p>
-        <p>Abhi videos load karne ka feature jodna baaki hai.</p>
+        <p>🎬 Bharat Reels feed</p>
+        <p>Apne videos dekhein aur share karein.</p>
       </div>
 
       <h3>Create a post</h3>
@@ -51,7 +50,7 @@ export default function Home() {
       <button
         onClick={() => alert(
           caption.trim()
-            ? "Post feature abhi Supabase se connect karna baaki hai."
+            ? "Agla step: Supabase se post save karna."
             : "Pehle caption likhiye."
         )}
         style={{
